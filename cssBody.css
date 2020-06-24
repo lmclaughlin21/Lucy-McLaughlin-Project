@@ -15,19 +15,26 @@ nav {
 .logo {
     color: #f2f2f2;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.logo h4 {
+    font-weight: lighter;
 }
 
 .nav-links {
     display: flex;
     width: 35%;
     justify-content: space-evenly;
-    margin-top: 15px;
 }
 
 .nav-links li {
     list-style: none;
+    line-height: 1.5;
 }
 
 .nav-links a {
@@ -35,6 +42,8 @@ nav {
     color: #f2f2f2;
     letter-spacing: 3px;
     font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .burger {
