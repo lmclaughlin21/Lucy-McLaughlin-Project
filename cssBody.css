@@ -30,6 +30,7 @@ nav {
     display: flex;
     width: 35%;
     justify-content: space-evenly;
+    z-index: 1;
 }
 
 .nav-links li {
