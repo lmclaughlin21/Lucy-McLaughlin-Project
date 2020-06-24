@@ -59,9 +59,9 @@ nav {
 }
 
 .container {
-    background-image: url(palmback.jpg);
+    background-image: url(paint.jpg);
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     padding-top: 75px;
     padding-bottom: 125px;
 }
@@ -78,8 +78,8 @@ nav {
     padding: 50px;
     margin-left: 250px;
     margin-right: 550px;
-    border: rgb(47, 65, 35) solid 30px;
-    background-color: rgb(160, 187, 152);
+    border: rgb(253, 147, 120) solid 30px;
+    background-color: rgb(255, 185, 168);
     opacity: 0.8;
 }
 
