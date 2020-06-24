@@ -157,7 +157,13 @@ nav {
     .burger {
         display: block;
     }
-
+    .box1 {
+        margin: 0;
+    }
+    .box2 {
+        margin: 0;
+    }
+}
 .nav-active {
     transform: translateX(0%);
 }
