@@ -15,7 +15,7 @@ nav {
 .logo {
     color: #f2f2f2;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 20px;
 }
 
@@ -24,6 +24,7 @@ nav {
     width: 35%;
     justify-content: space-evenly;
     margin-top: 15px;
+    z-index: 1;
 }
 
 .nav-links li {
@@ -61,8 +62,8 @@ nav {
     margin: 5px;
 }
 
-.carousel-slide img {
-    height: 10%;
+.carousel-item img {
+    max-height: initial;
 }
 
 .textHome {
