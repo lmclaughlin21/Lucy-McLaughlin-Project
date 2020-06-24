@@ -61,7 +61,7 @@ nav {
 .container {
     background-image: url(paint.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: cover;
     padding-top: 75px;
     padding-bottom: 125px;
 }
@@ -85,6 +85,7 @@ nav {
 
 .box1 li {
     text-align: left;
+    margin-top: 15px;
 }
 
 .box1Pics {
@@ -92,6 +93,10 @@ nav {
     flex-direction: row;
     justify-content: center;
     padding: 30px;
+}
+
+.box1 h1 {
+    padding: 15px;
 }
 
 .box2 {
@@ -117,6 +122,10 @@ nav {
     flex-direction: row;
     justify-content: center;
     padding: 30px;
+}
+
+.box2 h1 {
+    padding: 15px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -148,11 +157,6 @@ nav {
     .burger {
         display: block;
     }
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 .nav-active {
     transform: translateX(0%);
