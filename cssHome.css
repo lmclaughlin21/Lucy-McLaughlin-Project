@@ -62,10 +62,6 @@ nav {
     margin: 5px;
 }
 
-.carousel-item img {
-    max-height: initial;
-}
-
 .textHome {
     background-color: rgb(75, 73, 73);
     color: #f2f2f2;
