@@ -1,0 +1,119 @@
+.headerBar {
+    background-color: rgb(75, 73, 73);
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headerBar a {
+    color: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+}
+
+.gumContainer {
+    background-image: url(palmback2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.unity {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 550px;
+    border: rgb(47, 65, 35) solid 30px;
+    background-color: rgb(160, 187, 152);
+    opacity: 0.8;
+}
+
+.unityPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.eco {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: 600px;
+    margin-right: 200px;
+    border: rgb(233, 188, 41) solid 30px;
+    background-color: rgb(255, 238, 160);
+    opacity: 0.8;
+}
+
+.ecoPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sitw {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 550px;
+    border: rgb(47, 65, 35) solid 30px;
+    background-color: rgb(160, 187, 152);
+    opacity: 0.8;
+}
+
+.sitwPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blossom {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: 600px;
+    margin-right: 200px;
+    border: rgb(233, 188, 41) solid 30px;
+    background-color: rgb(255, 238, 160);
+    opacity: 0.8;
+}
+
+.blossomPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}

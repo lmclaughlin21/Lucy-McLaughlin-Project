@@ -1,0 +1,118 @@
+.headerBar {
+    background-color: rgb(75, 73, 73);
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headerBar a {
+    color: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Ubuntu Mono', monospace, bold;
+}
+
+.container {
+    background-image: url(palmback.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 125px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 550px;
+    border: rgb(47, 65, 35) solid 30px;
+    background-color: rgb(160, 187, 152);
+    opacity: 0.8;
+}
+
+.box1Pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 600px;
+    margin-right: 200px;
+    border: rgb(233, 188, 41) solid 30px;
+    background-color: rgb(255, 238, 160);
+    opacity: 0.8;
+}
+
+.box2Pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+//*
+.inhabit {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: 200px;
+    margin-right: 600px;
+    border: rgb(47, 65, 35) solid 30px;
+    background-color: rgb(160, 187, 152);
+    opacity: 0.8;
+}
+
+.inhabitPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.invert {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace, cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: 700px;
+    margin-right: 200px;
+    border: rgb(233, 188, 41) solid 30px;
+    background-color: rgb(255, 238, 160);
+    opacity: 0.8;
+}
+
+.invertPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
