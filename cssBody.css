@@ -163,7 +163,18 @@ nav {
     .box2 {
         margin: 0;
     }
+    .box1Pics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2Pics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 .nav-active {
     transform: translateX(0%);
 }
